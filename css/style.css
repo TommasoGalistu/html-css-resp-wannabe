@@ -127,9 +127,14 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
 /* media per dimensione tablet */
  @media screen and (max-width: 768px){
     .container{
+        width: auto;
+    }
+    .row .col{
         width: auto;
     }
  }
@@ -142,7 +147,7 @@ img {
     }
 
     .row .col{
-        width: 100%;
+        
         margin-bottom: 5rem;
     }
  }
