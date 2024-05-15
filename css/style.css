@@ -131,6 +131,7 @@ img {
 
 /* media per dimensione tablet */
  @media screen and (max-width: 768px){
+    
     .container{
         width: auto;
     }
@@ -149,4 +150,24 @@ img {
         
         margin-bottom: 5rem;
     }
+
+    .why-us{
+        padding: 3rem 0;
+        background-color: black;
+        margin-bottom: 0;
+    }
+
+    .row .col.col-right {
+        
+        margin-bottom: 0;
+    }
+
+    .why-us li{
+        margin-bottom: 0;
+    }
+
+    .steps{
+        margin: 0;
+    }
+    
  }
