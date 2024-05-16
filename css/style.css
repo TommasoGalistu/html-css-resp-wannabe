@@ -127,14 +127,16 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+/* media per modifica desktop */
+@media screen and (max-width: 1140px){
+    .container{
+        width: auto;
+    }
+}
 
 /* media per dimensione tablet */
  @media screen and (max-width: 768px){
     
-    .container{
-        width: auto;
-    }
     .row .col{
         width: auto;
     }
